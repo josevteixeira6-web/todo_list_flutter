@@ -128,7 +128,7 @@ class _SettingsPageState extends State <SettingsPage>{
               'pedir confirmação antes de apagar uma tarefa',
             ),
             value: _confirmDelete,
-            onChanged: _toggleConfirmDelete
+            onChanged: _toggleConfirmDelete,
             ),
             const _SectionTitle('Conts'),
             ListTile(
