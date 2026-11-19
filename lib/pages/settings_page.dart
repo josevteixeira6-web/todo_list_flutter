@@ -45,7 +45,7 @@ class _SettingsPageState extends State <SettingsPage>{
     widget.onThemeChanged(value);
   }
 
-  Future<void> _toogleConfirmDelete(bool value) async {
+  Future<void> _toggleConfirmDelete(bool value) async {
     setState(() {
       _confirmDelete = value;
     });
